@@ -9,7 +9,7 @@ function pause(){
     }
 
 const wolf = document.querySelector(".logo1");
-wolf.addEventListener("click",show);
+wolf.addEventListener("click", show);
 
 function show(){
     document.querySelector('.logotext').style.animation = "wolf 3s forwards";
